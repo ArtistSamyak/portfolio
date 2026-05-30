@@ -1,13 +1,244 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Google AI Studio App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samyak Pawar | Senior iOS Engineer</title>
+    <meta name="description" content="Portfolio of Samyak Pawar, Senior iOS Engineer & Apple 2021 Swift Student Challenge Winner.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glow top-glow"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Samyak.</a>
+            <div class="nav-links">
+                <a href="#experience">Experience</a>
+                <a href="#apps">Apps</a>
+                <a href="#skills">Skills</a>
+                <a href="https://topmate.io/samyak_pawar" target="_blank" class="nav-cta">Book a Call</a>
+            </div>
+        </div>
+    </nav>
 
+    <main>
+        <section class="hero section">
+            <div class="hero-content reveal">
+                <div class="badge">Apple 2021 Swift Student Challenge Winner</div>
+                <h1 class="hero-title">Samyak Pawar</h1>
+                <h2 class="hero-subtitle">Senior iOS Engineer crafting scalable, high-performance consumer experiences.</h2>
+                <div class="hero-actions">
+                    <a href="#apps" class="btn btn-primary">View My Work</a>
+                    <a href="https://apps.apple.com/us/developer/samyak-pawar/id1782872044" target="_blank" class="btn btn-secondary">App Store Profile</a>
+                </div>
+                <div class="contact-mini">
+                    <a href="mailto:samyakpw@protonmail.com">samyakpw@protonmail.com</a> &bull; 
+                    <a href="tel:+918600585051">+91 8600585051</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title reveal">Experience</h2>
+                <p class="section-desc reveal">Driving architecture, performance, and features at scale.</p>
+                
+                <div class="timeline">
+                    <!-- Amazon -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content bento-card">
+                            <div class="job-header">
+                                <div>
+                                    <h3>Amazon</h3>
+                                    <h4>Software Development Engineer II</h4>
+                                </div>
+                                <span class="date">Apr 2024 - Present &bull; Bengaluru</span>
+                            </div>
+                            <p class="app-desc">Music streaming platform with 80M+ users.</p>
+                            <ul class="job-achievements">
+                                <li>Owned offline download reliability, building resilient transfers and reconciliation with URLSession and CoreData, reducing sync defects at scale by 12%.</li>
+                                <li>Improved the streaming & playback stack using AVFoundation, enabling adaptive bitrate and gapless playback while lowering time-to-play by up to 0.3s.</li>
+                                <li>Delivered voice & AI discovery experiences; owned client flows, secure integrations, and telemetry.</li>
+                                <li>Boosted performance by driving adoption of Swift Concurrency, eliminating main-thread work, and resolving memory issues.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Kambi -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content bento-card">
+                            <div class="job-header">
+                                <div>
+                                    <h3>Kambi</h3>
+                                    <h4>iOS Developer</h4>
+                                </div>
+                                <span class="date">Oct 2022 - Apr 2024 &bull; Copenhagen</span>
+                            </div>
+                            <p class="app-desc">European sports betting platform powering 20+ operators globally.</p>
+                            <ul class="job-achievements">
+                                <li>Helped lead modularization of 25+ sportsbook apps using SPM and Clean Architecture (MVVM + TDD).</li>
+                                <li>Integrated payment SDKs (Apple Pay, Trustly) and implemented anti-tampering & jailbreak detection for EU compliance.</li>
+                                <li>Owned and optimised CI/CD pipelines via Fastlane + GitLab, reducing build time by 20%.</li>
+                                <li>Delivered new features using BDD workflows, ensuring zero regression.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- CAE -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content bento-card">
+                            <div class="job-header">
+                                <div>
+                                    <h3>CAE</h3>
+                                    <h4>Full-Stack Developer I (iOS)</h4>
+                                </div>
+                                <span class="date">Jun 2021 - Oct 2022 &bull; Pune</span>
+                            </div>
+                            <p class="app-desc">Roster Buster used by 600k+ pilots and crew members.</p>
+                            <ul class="job-achievements">
+                                <li>Enhanced roster parsing for 30+ airlines using PDFKit + Regex, improving accuracy and speed.</li>
+                                <li>Built a real-time crew chat via WebSocket + Combine, enabling instant communication.</li>
+                                <li>Migrated hybrid UIKit to SwiftUI architecture, significantly increasing unit test coverage.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="apps" class="section">
+            <div class="container">
+                <h2 class="section-title reveal">Featured Apps</h2>
+                <p class="section-desc reveal">Independent projects engineered for the App Store.</p>
+
+                <div class="bento-grid">
+                    <a href="https://apps.apple.com/us/app/biblechat-1-ai-guide/id6754158708" target="_blank" class="bento-card app-card reveal">
+                        <div class="app-icon" style="background: linear-gradient(135deg, #4A90E2, #50E3C2);">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
+                        </div>
+                        <h3>BibleChat</h3>
+                        <p class="app-desc">#1 AI Guide. Chat with the Bible Offline. Features Eye-Protect Mode and privacy-first on-device Apple Intelligence.</p>
+                    </a>
+
+                    <a href="https://apps.apple.com/us/app/amoura-the-home-of-asmr/id6738912445" target="_blank" class="bento-card app-card reveal">
+                        <div class="app-icon" style="background: linear-gradient(135deg, #FF9A9E, #FECFEF);">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 18v-6a9 9 0 0 1 18 0v6"></path><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path></svg>
+                        </div>
+                        <h3>Amoura</h3>
+                        <p class="app-desc">The Home of ASMR. Premium collection of immersive ASMR audios and calming audio journeys. 5000+ Audios, 100+ Artists.</p>
+                    </a>
+
+                    <a href="https://apps.apple.com/in/app/gitaverse-ai-chat-wisdom/id6749180907" target="_blank" class="bento-card app-card reveal">
+                        <div class="app-icon" style="background: linear-gradient(135deg, #F5A623, #F8E71C);">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+                        </div>
+                        <h3>GitaVerse</h3>
+                        <p class="app-desc">AI Chat & Wisdom. Conversational AI inspired by the Bhagavad Gita, exact verse references, and video courses.</p>
+                    </a>
+
+                    <a href="#" class="bento-card app-card reveal">
+                        <div class="app-icon" style="background: linear-gradient(135deg, #bdc3c7, #2c3e50);">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M3 3h18v18H3zM21 9H3M21 15H3M9 3v18M15 3v18"></path></svg>
+                        </div>
+                        <h3>TicTacFlo</h3>
+                        <p class="app-desc">GiiKER Tic-Tac-Toe. INFINITE XO with Adaptive AI. A modern, highly optimized take on a classic game.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="opensource" class="section">
+            <div class="container">
+                <h2 class="section-title reveal">Open Source</h2>
+                <div class="bento-grid">
+                    <a href="https://github.com/ArtistSamyak/Draw" target="_blank" class="bento-card repo-card reveal">
+                        <h4>Draw</h4>
+                        <p class="app-desc">100% ProgramaticUI. Wait-time interaction app.</p>
+                        <span class="lang-tag">Swift</span>
+                    </a>
+                    <a href="https://github.com/ArtistSamyak/ON-AIR" target="_blank" class="bento-card repo-card reveal">
+                        <h4>ON-AIR</h4>
+                        <p class="app-desc">Live Audio Broadcasting & Streaming app.</p>
+                        <span class="lang-tag">Swift</span>
+                    </a>
+                    <a href="https://github.com/ArtistSamyak/Colorfy" target="_blank" class="bento-card repo-card reveal">
+                        <h4>Colorfy</h4>
+                        <p class="app-desc">iOS app converting B&W images to color using Deep Learning.</p>
+                        <span class="lang-tag">Jupyter Notebook / CoreML</span>
+                    </a>
+                    <a href="https://github.com/ArtistSamyak/Server-side-Dynamic-Fonts" target="_blank" class="bento-card repo-card reveal">
+                        <h4>Dynamic Fonts</h4>
+                        <p class="app-desc">Server-side addition/update of ANY custom font in a live iOS App without updating.</p>
+                        <span class="lang-tag">Swift</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title reveal">Technical Expertise</h2>
+                <div class="bento-grid skills-grid">
+                    
+                    <div class="bento-card reveal">
+                        <h3>Languages & Frameworks</h3>
+                        <div class="tags">
+                            <span>Swift (Advanced)</span><span>Objective-C</span><span>C++</span>
+                            <span>SwiftUI</span><span>UIKit</span><span>Combine</span><span>RxSwift</span>
+                        </div>
+                    </div>
+                    
+                    <div class="bento-card reveal">
+                        <h3>Architecture & Concurrency</h3>
+                        <div class="tags">
+                            <span>Clean Architecture</span><span>MVVM</span><span>VIPER</span><span>Modularisation</span>
+                            <span>Swift Concurrency</span><span>GCD</span><span>Operations</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card reveal">
+                        <h3>Testing & DevOps</h3>
+                        <div class="tags">
+                            <span>XCTest</span><span>Swift Testing</span><span>TDD</span><span>Snapshot Testing</span>
+                            <span>Fastlane</span><span>Firebase</span><span>GitLab CI</span><span>App Store Connect</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card reveal">
+                        <h3>Data & Other Frameworks</h3>
+                        <div class="tags">
+                            <span>SwiftData</span><span>CoreData</span><span>Realm</span>
+                            <span>ARKit</span><span>Metal</span><span>CoreML</span><span>PDFKit</span><span>Apple Foundation Models</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content reveal">
+            <div class="footer-left">
+                <h2>Samyak Pawar</h2>
+                <p>Bachelor of Technology in Computer Science Engineering<br>MIT-ADT University, Pune (2017 - 2021)</p>
+                <p>&copy; 2026 Samyak Pawar. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/samyak-pawar/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/ArtistSamyak" target="_blank">GitHub</a>
+                <a href="https://apps.apple.com/us/developer/samyak-pawar/id1782872044" target="_blank">App Store</a>
+                <a href="https://topmate.io/samyak_pawar" target="_blank">Topmate</a>
+                <a href="https://www.upwork.com/freelancers/~018b3839aa01f5daa9" target="_blank">Upwork</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

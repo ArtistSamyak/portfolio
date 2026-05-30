@@ -1,6 +1,0 @@
-{
-  "name": "Samyak Pawar Portfolio",
-  "description": "Portfolio of Samyak Pawar, a senior iOS developer and Apple WWDC21 Swift Student Challenge Winner. Displays experience, skills, and shipped applications.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
